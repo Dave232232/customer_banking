@@ -43,8 +43,4 @@ def check(user_input, step):
     if iteration_count>max_iterations and step=="months":
         print("I am sorry, I need an integer.  The program will exit now.")
         months="exit"
-    #else:
-     #   print("++++++++++++++++++",integer_error, type(integer_error))
-      #  months=integer_error
-    
     return [balance,apr,months]
